@@ -466,3 +466,7 @@ html,body {
   .contact-card a h5 {
    margin-top: 10px;
   }
+
+  .thankyou-area p {
+    font-size: 20px;
+  }
