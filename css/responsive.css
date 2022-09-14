@@ -1,0 +1,21 @@
+@media(max-width:480px) {
+    .banner-text h1 {
+        font-size: 40px;
+    }
+
+    .banner-text p {
+        font-size: 16px;
+    }
+
+    .fade-banner .carousel-arrow {
+        display: none !important;
+    }
+
+    .fade-banner:hover .carousel-arrow {
+     display: block !important;
+    }
+
+    .about-area p {
+        font-size: 16px;
+    }
+}

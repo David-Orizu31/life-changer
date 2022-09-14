@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Barlow:wght@300;400;500;600;700&family=Bebas+Neue&family=Assistant:wght@300;400;500;600&family=Manrope:wght@300;400;500;600&family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600&family=Roboto+Mono:wght@300;400;500;600&display=swap');
+
+html,body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Manrope', sans-serif;
+}
+
+/* #383835 */
+
+.site-header {
+    background: #90b51a;
+}
+
+.site-header .header-links {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.text-ash {
+    color: #383835;
+}
+
+.text-green {
+    color: #90b51a;
+}
+
+.text-dark-green {
+    color: #0f5d09;
+}
+
+.text-maroon {
+    color: #8a0715;
+}
+
+.text-blue {
+    color: #125eb6;
+}
+
+.text-aboreto {
+    font-family: 'Aboreto', cursive;
+}
+
+.text-barlow {
+    font-family: 'Barlow', sans-serif;
+}
+
+.text-bebas {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.text-assistance {
+    font-family: 'Assistant', sans-serif;
+}
+
+.text-poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
+.text-roboto-mono {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.font-300 {
+    font-weight: 300;
+}
+
+.font-400 {
+    font-weight: 400;
+}
+
+.font-500 {
+    font-weight: 500;
+}
+
+.font-600 {
+    font-weight: 600;
+}
+
+.font-700 {
+    font-weight: 700;
+}
+
+.navbar {
+    background: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.navbar .navbar-brand .img-logo {
+    width: 70px;
+}
+
+.navbar .navbar-nav .nav-item {
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.navbar .navbar-nav .nav-item:hover .nav-link {
+    color: #90b51a;
+}
+
+.navbar .navbar-nav .nav-item.active .nav-link {
+    color: #90b51a;
+}
+
+.toggle-btn {
+    color: #90b51a;
+    border: none;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.toggle-btn:focus {
+    box-shadow: none;
+}
+
+
+.home-banner {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)) , url(../img/college-students.jpg) no-repeat center;
+    min-height: 500px;
+    background-size: cover;
+}
+
+.banner-2 {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)) , url(../img/lfc-banner1.jpg) no-repeat center;
+    min-height: 500px;
+    background-size: cover;
+}
+
+.banner-3 {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)) , url(../img/lfc-banner.png) no-repeat center;
+    min-height: 500px;
+    background-size: cover;
+}
+
+.fade-banner {
+    position: relative;
+}
+
+.fade-banner .carousel-arrow {
+    border: 0;
+    background: transparent;
+    /* display: none !important; */
+    height: 50px;
+    width: 45px;
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    transform: translate(0, -50%);
+    outline: 0;
+    cursor: pointer;
+  }
+
+  /* .fade-banner:hover .carousel-arrow {
+     display: block !important;
+  } */
+  
+  /* Modificação só pra a seta do próximo carousel ficar na direita */
+  
+  .fade-banner .carousel-arrow.next {
+    right: 0;
+    margin-right: 15px;
+  }
+
+
+.banner-text {
+    margin-top: 90px;
+}
+
+.banner-text h1 {
+    font-size: 50px;
+}
+
+.green-bot {
+    width: 100px;
+    height: 7px;
+    background: #90b51a;
+}
+
+.banner-text p {
+    font-size: 18px;
+}
+
+.btn-apply {
+    color: white;
+    background: #90b51a;
+    border-radius: 0px;
+    border: 1px solid #90b51a;
+}
+
+.btn-apply:hover {
+    color: #90b51a;
+    background: transparent;
+    border: 1px solid #90b51a;
+}
+
+.btn-apply:focus {
+    color: #90b51a;
+    background: transparent;
+    border: 1px solid #90b51a;
+}
+
+.under-banner {
+    margin-top: -50px;
+    position: relative;
+}
+
+.undban-row {
+    padding: 20px;
+    color: white;
+    height: 100%;
+}
+
+.undban-row.first {
+    background: #8a0715;
+}
+
+.undban-row.second {
+    background: #90b51a;
+}
+
+.undban-row.third {
+    background: #125eb6;
+}
+
+.undban-row p {
+    font-size: 20px;
+}
+
+.about-area p {
+    font-size: 17px;
+}
+
+.about-img img {
+    border-radius: 50%;
+}
+
+.about-img.first img {
+    margin-top: 70px;
+}
+
+.about-img.second img {
+    height: 120px;
+}
+
+.about-img.third img {
+    margin-top: 120px;
+}
+
+.fir-row {
+    margin-right: -25px !important;
+}
+
+.th-row {
+    margin-left: -50px !important;
+}
+
+.img-service {
+    width: 100%;
+}
+
+.service-textarea {
+    background: #383835;
+    height: 100%;
+}
+
+.service-list {
+    list-style-type: none;
+    padding-inline-start: 0px;
+    color: white;
+}
+
+.service-list li {
+    line-height: 2em;
+}
+
+.service-list li .list-icon {
+    font-size: 12px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.contact-area .contact-bg {
+    background: #90b51a;
+    min-height: 100%;
+}
+
+.img-contact {
+    height: 100%;
+}
+
+.contact-control {
+    border-radius: 0px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.contact-control::placeholder {
+    color: white;
+}
+
+.contact-control:focus {
+    border-radius: 0px;
+    background: transparent;
+    border: 1px solid #383835;
+    color: #383835;
+    box-shadow: none;
+}
+
+.btn-submit {
+    color: white;
+    background: #8a0715;
+    border-radius: 0px;
+    border: 1px solid #8a0715;
+}
+
+.btn-submit:hover {
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+}
+
+.testimonials-area {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8)) , url(../img/testi-banner.jpg) no-repeat center fixed;
+    min-height: 300px;
+    background-size: cover;
+}
+
+.testimonials {
+    position: relative;
+}
+
+.testimonials .carousel-arrow {
+    border: 0;
+    background: transparent;
+    display: none !important;
+    height: 50px;
+    width: 45px;
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    transform: translate(0, -50%);
+    outline: 0;
+    cursor: pointer;
+  }
+
+  .testimonials:hover .carousel-arrow {
+     display: block !important;
+  }
+  
+  /* Modificação só pra a seta do próximo carousel ficar na direita */
+  
+  .testimonials .carousel-arrow.next {
+    right: 0;
+    margin-right: 15px;
+  }
+
+  .myslider-dots {
+    list-style: none;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .myslider-dots li {
+    display: inline-block;
+    margin: 0 3px;
+  }
+  
+  .myslider-dots li > button {
+    width: 20px;
+    height: 4px;
+    border: none;
+    background: white;
+    color: transparent;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .myslider-dots li.slick-active > button {
+    background: #90b51a;
+  }
+
+  .img-testimonial {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  .footer-area {
+    background: #1d1d1c;
+  }
+
+  .footer-text {
+    font-size: 14px;
+  }
+
+  .footer-list {
+    list-style-type: none;
+    padding-inline-start: 0px;
+  }
+
+  .footer-list li {
+    line-height: 2em;
+  }
+
+  .footer-list li a {
+    text-decoration: none;
+  }
+
+  .footer-list li a:hover {
+    color: #90b51a !important;
+  }
+
+  .footer-socials a {
+    color: #90b51a;
+    margin-right: 10px;
+  }
+
+  .footer-socials a:hover {
+    color: white;
+  }
+
+  .copyright-area p {
+    font-size: 13px;
+  }
+
+  .other-banners {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)) , url(../img/lfc-testi-bg.jpg) no-repeat center;
+    min-height: 250px;
+    background-size: cover;
+    padding-top: 100px;
+  }
+
+  .other-banners h1 {
+    font-size: 2.5rem;
+  }
+
+  .other-banners h6 a {
+    color: #90b51a;
+    text-decoration: none;
+  }
+
+  .contact-card {
+    border: none;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    background: #383835;
+    transition: 0.5s all ease-in-out;
+    height: 195px;
+  }
+  
+  .contact-card:hover {
+    margin-top: -10px;
+  }
+  
+   .contact-card a {
+    text-decoration: none;
+  }
+  
+  .contact-card a h5 {
+   margin-top: 10px;
+  }
