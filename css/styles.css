@@ -232,6 +232,10 @@ html,body {
     font-size: 20px;
 }
 
+.und-link {
+    text-decoration: none;
+}
+
 .about-area p {
     font-size: 17px;
 }
