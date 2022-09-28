@@ -1,6 +1,6 @@
 <?php
 
-    $to = "info@lifechanger.com";
+    $to = "info@lifechangercollege.com";
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
     $subject = $_REQUEST['topic'];
@@ -36,7 +36,7 @@
 
 	//redirect to the ‘thank you’ page
 
-    header('Location: http://www.lifechanger.com/thankyou.html');
+    header('Location: http://www.lifechangercollege.com/thankyou.html');
     exit;
 
 ?>
