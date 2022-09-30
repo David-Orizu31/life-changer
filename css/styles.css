@@ -474,3 +474,37 @@ html,body {
   .thankyou-area p {
     font-size: 20px;
   }
+
+  .lccfam-img {
+    max-height: 500px;
+    width: 100%;
+  }
+
+  .get-in-touch ul{
+    list-style-type: none;
+    padding-inline-start: 0px;
+  }
+
+  .get-in-touch ul li {
+    margin-top: 10px;
+  }
+
+  .get-in-touch ul li .list-icon {
+    font-size: 12px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.btn-getntouch {
+    background: #0f5d09;
+    color: white;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 2px solid #0f5d09;
+}
+
+.btn-getntouch:hover {
+    color: #0f5d09;
+    background: transparent;
+    border: 2px solid #0f5d09;
+}
